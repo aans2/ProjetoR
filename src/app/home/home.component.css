@@ -17,10 +17,6 @@
   background-color: orange;
 }
 
-.sidenav{
-  background-color: red;
-}
-
 @font-face{
   font-family: 'Bold';
   src: url('/src/app/Fontes/FiraSans-Bold.otf');
