@@ -1,0 +1,47 @@
+<div class="externo">
+    <!-- HEAD COM LOGO -->
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <a class="navbar-brand">
+            <img src={{iconeLogo}} alt="Logo" style="width:40%">
+        </a>
+
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item login">
+            <button type="button" class="btn btn-dark"> Login <img src={{iconeLogin}} width="30" heigth="30" alt=""> </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!--SideBar-->
+    <div class="container-fluid">
+    <div class="row content">
+        <ul class="nav nav-pills flex-column col-sm-2 sidenav">
+            <div class="card" style="width: 14rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <a href=""> <img src={{iconeHome}} height="30" width="30"> Inicio</a> </li>
+                  <li class="list-group-item"> <a> <img src={{iconeConta}} height="30" width="30">  Conta </a> </li>
+                  <li class="list-group-item"> <a> <img src={{iconeAjuste}} height="30" width="30">  Ajustes</a> </li>
+                  <li class="list-group-item"> <a> <img src={{iconeConfig}} height="30" width="30">  Configurações</a> </li>
+                  <li class="list-group-item"> <a routerLink="/visual"> <img src={{iconeVisual}} height="30" width="30">  Visualizar</a> </li>
+                  <li class="list-group-item"> <a> <img src={{iconeChat1}} height="30" width="30">  Contato </a> </li>
+                  <li class="list-group-item"> <a> <img src={{iconeSair}} height="30" width="30">  Sair</a> </li>
+                </ul>
+                <div class="card footer">
+                  V1.4512
+                  º 2018 ProjetoR.
+                </div>
+              </div>
+
+          </ul>
+
+      <br><br><br><br>
+      <!--CENTRO DA PAGINA - Visual-->
+    <div class="col">
+      <br><br><br>
+      <app-visual></app-visual>
+    </div>
+
+    </div>
+    </div>
+  </div>

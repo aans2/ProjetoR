@@ -1,0 +1,27 @@
+.teste.container {
+  height: 20%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.externo{
+  background-color: whitesmoke;
+}
+
+.card ul li{
+  background-color: white;
+}
+
+.card ul li:hover{
+  background-color: orange;
+}
+
+.sidenav{
+  background-color: red;
+}
+
+@font-face{
+  font-family: 'Bold';
+  src: url('/src/app/Fontes/FiraSans-Bold.otf');
+}

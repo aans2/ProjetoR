@@ -1,0 +1,28 @@
+/* DivTable.com */
+.divTable{
+	width: 100%;
+}
+.divTableRow {
+  width: 300%;
+  height: 300%;
+}
+.divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+    padding: 300px 100px;
+    text-align: center;
+    margin: auto;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
