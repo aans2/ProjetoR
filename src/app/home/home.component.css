@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.teste.container ul li{
+  font: 16px SemiBold;
+}
+
 .externo{
   background-color: whitesmoke;
 }
@@ -17,11 +21,14 @@
   background-color: orange;
 }
 
-@font-face{
-  font-family: 'Bold';
-  src: url('/src/app/Fontes/FiraSans-Bold.otf');
-}
-
 .card ul a:focus li{
   background-color: orange;
+}
+
+.card ul a li{
+  font: 14px Regular;
+}
+
+.card.footer{
+  font: 14px Bold;
 }

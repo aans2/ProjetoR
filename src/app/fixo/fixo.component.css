@@ -17,12 +17,10 @@
   background-color: orange;
 }
 
-@font-face{
-  font-family: 'Bold';
-  src: url('/src/app/Fontes/FiraSans-Bold.otf');
-}
-
 .card ul a:focus li{
   background-color: orange;
 }
 
+.card ul a li{
+  font: 14px Regular;
+}

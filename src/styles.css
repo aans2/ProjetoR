@@ -1,2 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face{
+  font-family: 'Bold';
+  src: url('/src/app/Fontes/FiraSans-Bold.otf');
+}
+
+@font-face{
+  font-family: 'BoldItalic';
+  src: url('/src/app/Fontes/FiraSans-BoldItalic.otf');
+}
+
+@font-face{
+  font-family: 'Italic';
+  src: url('/src/app/Fontes/FiraSans-Italic.otf');
+}
+
+@font-face{
+  font-family: 'Regular';
+  src: url('/src/app/Fontes/FiraSans-Regular.otf');
+}
+
+@font-face{
+  font-family: 'SemiBold';
+  src: url('/src/app/Fontes/FiraSans-SemiBold.otf');
+}
+
+@font-face{
+  font-family: 'Bold';
+  src: url('/src/app/Fontes/FiraSans-SemiBoldItalic.otf');
+}
