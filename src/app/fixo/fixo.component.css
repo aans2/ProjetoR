@@ -9,11 +9,20 @@
   background-color: whitesmoke;
 }
 
-.card ul li{
+.card ul a{
   background-color: white;
 }
 
-.card ul li:hover{
+.card ul a:hover li{
+  background-color: orange;
+}
+
+@font-face{
+  font-family: 'Bold';
+  src: url('/src/app/Fontes/FiraSans-Bold.otf');
+}
+
+.card ul a:focus li{
   background-color: orange;
 }
 
