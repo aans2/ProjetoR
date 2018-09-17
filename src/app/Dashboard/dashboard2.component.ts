@@ -9,6 +9,8 @@ import { ColChartConfig } from './../Models/ColChartConfig';
 export class Dashboard2Component {
   title = 'Total de Vendas';
 
+  iconeAjuste: String = '/src/app/Icones/settings-1.png';
+
   data1: any[];
   config1: ColChartConfig;
   elementId1: String;

@@ -9,6 +9,9 @@ import { PieChartConfig } from './../Models/PieChartConfig';
 export class DashboardComponent {
   title = 'Total de Vendas por Setor';
 
+  iconeAjuste: String = '/src/app/Icones/settings-1.png';
+
+
   data1: any[];
   config1: PieChartConfig;
   elementId1: String;
