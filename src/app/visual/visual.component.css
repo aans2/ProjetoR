@@ -1,7 +1,15 @@
 .meio{
   padding-left: 10%;
+  font: 16px Regular;
 }
 
 .meio li.title{
   background-color: whitesmoke;
+  font: 20px BoldItalic;
 }
+
+.meio li a:hover{
+  background-color: orange;
+}
+
+

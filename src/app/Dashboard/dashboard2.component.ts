@@ -28,7 +28,7 @@ export class Dashboard2Component {
     ['Abr',  2],
     ['Maio', 2],
     ['jun',    7]];
-    this.config1 = new ColChartConfig('', 0.9);
+    this.config1 = new ColChartConfig('', 0.1);
     this.elementId1 = 'myColChart1';
   }
 
